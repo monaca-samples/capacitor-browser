@@ -1,0 +1,12 @@
+body {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+.gradient-button {
+    padding: 20px;
+    background: rgb(105,105,238);
+    background: linear-gradient(90deg, rgba(105,105,238,1) 0%, rgba(0,211,255,1) 100%);
+}
